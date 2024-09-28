@@ -1,0 +1,1005 @@
+/* Responsive CSS */
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1458px;
+    }
+}
+
+@media (min-width: 992px) {
+    .accordion .collapse:not(.show) {
+        display: block;
+    }
+}
+
+@media (max-width: 1500px) {
+    .about-left-gun {
+        margin-bottom: -50px;
+    }
+}
+
+@media (max-width: 1400px) {
+    #navbar-right .navbar-nav {
+        gap: 20px;
+    }
+
+    .inner-gap {
+        padding: 100px 0;
+    }
+
+    .title-group {
+        margin-bottom: 36px;
+    }
+
+    .sub-title {
+        font-size: 40px;
+    }
+
+    /*  */
+    .banner {
+        padding: 280px 0 80px;
+    }
+
+    .banner p {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .banner .primary-btn {
+        font-size: 16px;
+        padding: 12px 22px;
+    }
+
+    .banner h6 {
+        font-size: 22px;
+    }
+
+    .banner h2 {
+        font-size: 66px;
+    }
+
+    .price h4 {
+        font-size: 38px;
+    }
+
+    .gun-card {
+        padding: 14px;
+    }
+
+    .video-card {
+        padding: 20px;
+    }
+
+    .guns-category {
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-brand img {
+        max-width: 300px;
+    }
+
+    body.open-menu {
+        overflow: hidden
+    }
+
+    body.open-menu #main-content:before {
+        background: #3c3c3c;
+        content: "";
+        inset: 0;
+        opacity: 40%;
+        position: fixed;
+        transition: .3s;
+        z-index: 99;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #000;
+        width: 100%;
+    }
+
+    header.header-light .navbar-collapse {
+        background-color: #fff;
+    }
+
+    .navbar-collapse.show {
+        box-shadow: 0 2px 4px #9191916b;
+    }
+
+    #navbar-right .navbar-nav {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 10px;
+        gap: 0px;
+    }
+
+    #navbar-right .navbar-nav .nav-link {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .title-group {
+        margin-bottom: 30px;
+    }
+
+    .inner-gap {
+        padding: 80px 0;
+    }
+
+    .sub-title {
+        font-size: 34px;
+    }
+
+    .section-title {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    /*  */
+    .banner h2 {
+        font-size: 52px;
+    }
+
+    .banner h6 {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .banner p {
+        font-size: 18px;
+    }
+
+    .banner .primary-btn {
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+
+    /*  */
+
+    .filter-category ul li {
+        padding: 20px 12px;
+    }
+
+    .blog-content-bp .highlight {
+        font-size: 20px;
+        padding: 40px 28px;
+    }
+
+    .popular-filter-tags li .form-check-label {
+        font-size: 14px;
+        padding: 6px 18px;
+    }
+
+    .price h4 {
+        font-size: 28px;
+    }
+
+    .price {
+        margin-bottom: 24px;
+    }
+
+    .nav-tabs .nav-link {
+        padding: 14px;
+    }
+
+    .course-detail h3 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .filter-wrapper h3 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    header .dropdown-menu.show {
+        background: transparent;
+        padding: 10px;
+        margin-top: 0 !important;
+        border: 0;
+    }
+
+    header .dropdown-item {
+        color: #fff;
+    }
+
+    header.header-light .dropdown-item {
+        color: #000;
+    }
+
+    header .dropdown-item.active, header .dropdown-item:hover {
+        border-radius: 4px;
+    }
+
+    /*  */
+    .card-2 {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .video-card,
+    .product-card {
+        padding: 14px;
+    }
+
+    .video-card h5 {
+        margin-top: 14px;
+        font-size: 18px;
+    }
+
+    .news-card h3 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .range-rules h3 {
+        font-size: 30px;
+    }
+
+    .range-rules-card {
+        padding: 20px;
+    }
+
+    .range-rules-card ul {
+        gap: 12px;
+        margin: 24px 0;
+    }
+
+    .primary-btn {
+        line-height: 1.5;
+        padding: 12px 26px;
+    }
+
+    .about-left-gun img {
+        width: 380px;
+    }
+
+    .product-description-wrapper {
+        padding: 20px;
+    }
+
+    .nav-pills {
+        gap: 26px;
+    }
+
+    .nav-pills .nav-link {
+        padding: 12px 30px;
+    }
+
+    .ordered-list {
+        font-size: 18px;
+    }
+
+    .form-check {
+        gap: 10px;
+    }
+
+    .blog-title {
+        font-size: 26px;
+    }
+
+    .step-card img {
+        max-height: 200px;
+    }
+
+    .privacy-policy-content h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .privacy-policy-content hr {
+        margin: 20px 0;
+    }
+
+    header {
+        top: 88px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-top {
+        padding: 12px 0px;
+    }
+
+    header {
+        top: 70px;
+    }
+
+    .navbar {
+        padding: 16px 0;
+    }
+
+    #navbar-right .navbar-nav {
+        max-width: 960px;
+    }
+
+    #navbar-right .navbar-nav {
+        gap: 0;
+        max-width: 720px;
+    }
+
+    .inner-gap {
+        padding: 60px 0;
+    }
+
+    header .primary-btn {
+        padding: 12px 20px;
+    }
+
+    .banner h2 {
+        font-size: 45px;
+    }
+
+    /*  */
+
+    .accordion-bdp .accordion-button {
+        border: 0;
+        padding: 8px 16px;
+        font-size: 18px;
+        background: var(--secondary-clr);
+        color: #000 !important;
+        display: flex;
+    }
+
+    .accordion-bdp .accordion-button::after {
+        background-color: transparent;
+        color: #000;
+    }
+
+    .accordion-bdp .accordion-item {
+        border: 1px solid var(--secondary-clr);
+    }
+
+    .accordion-bdp .accordion-body {
+        padding: 16px;
+    }
+
+    .filter-category ul li {
+        padding: 18px 12px;
+    }
+
+    .footer-bottom p {
+        font-size: 16px;
+    }
+
+    /*  */
+    .nav-tabs .nav-link {
+        font-size: 16px;
+    }
+
+    .card-1 {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .testimonial-card {
+        padding: 0 64px;
+    }
+
+    .testimonial-card p {
+        font-size: 20px;
+        margin: 0 auto 16px;
+    }
+
+    .news-card h3 {
+        font-size: 24px;
+        margin: 12px 0;
+    }
+
+    .news-card h4 {
+        font-size: 18px;
+        margin: 12px 0;
+    }
+
+    .nav-pills {
+        gap: 16px;
+    }
+
+    .nav-pills .nav-link {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .bs4-order-tracking li span {
+        font-size: 14px;
+    }
+
+    .bs4-order-tracking li>div {
+        width: 16px;
+        height: 16px;
+    }
+
+    .order-summary-left ul {
+        padding-left: 18px;
+        font-size: 18px;
+    }
+
+    .order-summary td {
+        font-size: 18px;
+    }
+
+    .total-wrapper {
+        padding: 10px;
+        margin: 0 8px;
+        gap: 14px;
+        min-width: auto;
+    }
+
+    .cart-wrapper td {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .cart-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .product-detail h5 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        top: 64px;
+    }
+
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    .primary-btn {
+        line-height: 1.2;
+        padding: 12px 16px;
+    }
+
+    #navbar-right .navbar-nav {
+        max-width: 540px;
+    }
+
+    .footer-link-wrapper h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-link-wrapper ul a {
+        font-size: 16px;
+    }
+
+    .footer-bottom {
+        padding: 20px 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .title-group {
+        margin-bottom: 20px;
+    }
+
+    .sub-title {
+        font-size: 30px;
+    }
+
+    .section-title {
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+
+    .inner-gap {
+        padding: 50px 0;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .header-top .form-select {
+        font-size: 14px;
+        padding: 5px 30px 5px 10px;
+    }
+
+    .header-top .primary-btn {
+        padding: 7px 14px;
+        font-size: 14px;
+        gap: 6px;
+    }
+
+    .header-top a img {
+        width: 20px;
+    }
+
+    /*  */
+
+    .banner {
+        background-position: left center;
+        padding: 220px 0 70px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        background-size: 40px;
+    }
+
+    .banner h2 {
+        font-size: 34px;
+    }
+
+    .banner p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .blog-content-bp {
+        gap: 20px;
+    }
+
+    .blog-content-bp .highlight {
+        font-size: 20px;
+        padding: 30px 16px;
+    }
+
+    button.accordion-button {
+        font-size: 18px;
+        padding: 18px 0;
+    }
+
+    footer .fa-phone-volume {
+        width: 50px;
+        height: 50px;
+    }
+
+    /*  */
+    .gun-card h6 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .product-nav li {
+        padding: 0 8px;
+    }
+
+    .product-nav a {
+        font-size: 15px;
+    }
+
+    .product-action-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .product-arrow img {
+        width: 30px;
+    }
+
+    .how-order h4 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .testimonial-card {
+        padding: 0 38px;
+    }
+
+    .testimonial-card p {
+        font-size: 18px;
+    }
+
+    .testimonial-card img {
+        width: 60px;
+    }
+
+    .testimonial-avatar {
+        margin-bottom: 18px;
+    }
+
+    .range-rules h3 {
+        font-size: 25px;
+    }
+
+    .about-left-gun {
+        margin-bottom: 0;
+    }
+
+    .nav-pills {
+        gap: 10px;
+    }
+
+    .nav-pills .nav-link {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .product-price span {
+        font-size: 28px;
+    }
+
+    .quantity-selector {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .product-title {
+        font-size: 20px;
+    }
+
+    .ordered-list td,
+    .ordered-list th {
+        padding: 10px 6px;
+    }
+
+    .ordered-list {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .highlight {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .form-check {
+        gap: 10px;
+    }
+
+    .blog-bp .accessories-card a {
+        font-size: 16px;
+    }
+
+    .blog-bp .accessories-card h6 {
+        font-size: 13px;
+    }
+
+    .step-card img {
+        height: 100px;
+    }
+
+    .faq-left .input-group {
+        padding: 8px 10px;
+    }
+
+    .faq-left ul {
+        margin: 20px 0;
+    }
+
+    .faq-left .input-group img {
+        width: 16px;
+    }
+
+    .faq-right h4 {
+        font-size: 20px;
+    }
+
+    .faq-right h4~h4 {
+        margin-top: 18px;
+    }
+
+    .privacy-policy-content h3 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .privacy-policy-content p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    header {
+        top: 64px;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    header .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    #navbar-right .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+
+    .sub-title {
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+
+    .section-title {
+        font-size: 16px;
+    }
+
+    .inner-gap {
+        padding: 40px 0;
+    }
+
+    .breadcrumb-item, .breadcrumb-item a, .breadcrumb-item.active {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .banner {
+        padding: 170px 0 70px;
+    }
+
+    .primary-btn {
+        font-size: 14px;
+    }
+
+    .footer-link-wrapper ul {
+        gap: 10px;
+    }
+
+    footer p, footer li, .footer-link-wrapper ul a {
+        font-size: 16px;
+    }
+
+    .popular-filter-tags li .form-check-label {
+        padding: 8px 14px;
+    }
+
+    /*  */
+    .tab-content {
+        padding: 12px;
+    }
+
+    .gun-card {
+        padding: 8px;
+    }
+
+    .card-3 {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .new-arrival-card {
+        padding: 14px;
+    }
+
+    .new-arrival-card h3 {
+        margin: 10px 0 4px;
+        font-size: 16px;
+    }
+
+    .new-arrival-card img {
+        width: 40px;
+    }
+
+    .highlight-text {
+        font-size: 16px;
+    }
+
+    .how-order h3 {
+        font-size: 24px;
+    }
+
+    .video-card h5 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .play-video {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    .testimonial-card p {
+        font-size: 15px;
+    }
+
+    .testimonial-avatar {
+        margin-bottom: 12px;
+    }
+
+    .news-card h3 {
+        font-size: 20px;
+    }
+
+    .news-card h6 {
+        font-size: 14px;
+    }
+
+    .update-form .form-control {
+        font-size: 16px;
+    }
+
+    .footer-brand img {
+        max-width: 200px;
+    }
+
+    .range-rules-card ul {
+        gap: 8px;
+        margin: 16px 0;
+    }
+
+    .range-rules-card {
+        padding: 14px;
+    }
+
+    .classes ul li~li {
+        margin-top: 12px;
+    }
+
+    .classes ul li {
+        font-size: 15px;
+    }
+
+    .page-title {
+        padding: 20px 0;
+    }
+
+    input#minAmount, input#maxAmount {
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .product-description-wrapper {
+        padding: 24px 14px;
+    }
+
+    .nav-pills .nav-link {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .review-left h5 {
+        font-size: 24px;
+    }
+
+    .review-statistic {
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        padding: 12px 10px;
+    }
+
+    .review-card-in .review-star i {
+        font-size: 14px;
+        ;
+    }
+
+    .review-star-wrapper p {
+        font-size: 12px;
+        line-height: 22px;
+        padding-left: 10px;
+    }
+
+    .reviewer-avatar img {
+        width: 30px;
+    }
+
+    .review-card-in h5 {
+        font-size: 18px;
+    }
+
+    .contact-info {
+        gap: 20px;
+    }
+
+    .blog-title {
+        font-size: 20px;
+    }
+
+    .header-top .primary-btn {
+        padding: 7px;
+    }
+
+    .header-top .form-select {
+        font-size: 12px;
+        padding: 5px 20px 5px 5px;
+    }
+
+    .header-top .form-select {
+        background-position: right;
+    }
+
+    .bs4-order-tracking li span {
+        font-size: 12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .order-tracking-tdp .breadcrumb-item {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .bs4-order-tracking {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .product-detail h5 {
+        font-size: 14px;
+        max-width: 200px;
+    }
+
+    .cart-wrapper td {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .order-summary td {
+        font-size: 16px;
+    }
+
+    .order-summary tfoot td {
+        padding: 10px 0;
+    }
+
+    .summery-wrapper {
+        padding: 16px;
+    }
+
+    .order-summary-left ul {
+        padding-left: 18px;
+        font-size: 16px;
+    }
+
+    .cart-wrapper th {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .total-wrapper p {
+        font-size: 14px;
+    }
+
+    .total-wrapper {
+        padding: 6px;
+        margin: 0 5px;
+        gap: 10px;
+        min-width: 100px;
+        font-size: 14px;
+    }
+
+    .cart-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .faq-left ul a {
+        font-size: 16px;
+    }
+
+    .pagination .page-item:nth-child(3),
+    .pagination .page-item:nth-child(4) {
+        display: none;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .filter-category-pp {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 440px) {
+    .sub-title {
+        font-size: 22px;
+    }
+
+    .banner h2 {
+        font-size: 28px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+}
